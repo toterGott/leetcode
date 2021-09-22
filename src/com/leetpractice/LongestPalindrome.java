@@ -1,8 +1,8 @@
 package com.leetpractice;
 
 /**
- * 3. Longest Substring Without Repeating Characters
- * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ * 5. Longest Palindromic Substring
+ * https://leetcode.com/problems/longest-palindromic-substring/
  */
 public class LongestPalindrome {
     public static void main(String[] args) {

@@ -3,6 +3,10 @@ package com.leetpractice;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 3. Longest Substring Without Repeating Characters
+ * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ */
 public class LongestSubstring {
 
     public static void main(String[] args) {
