@@ -1,5 +1,7 @@
 package com.leetpractice;
 
+import java.util.function.Function;
+
 /**
  * 5. Longest Palindromic Substring
  * https://leetcode.com/problems/longest-palindromic-substring/
