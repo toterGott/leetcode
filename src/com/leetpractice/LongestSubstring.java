@@ -14,6 +14,7 @@ public class LongestSubstring {
         System.out.println(countLongestSubstring("ababc"));
         System.out.println(countLongestSubstring("abbca"));
         System.out.println(countLongestSubstring("abbca"));
+        System.out.println(countLongestSubstring("dvdf"));
     }
 
     private static Integer countLongestSubstring(String input) {
@@ -24,12 +25,14 @@ public class LongestSubstring {
         for (int i = 0; i < input.length(); i++) {
             if (charMap.containsKey(input.charAt(i))) {
                 maxLength = Math.max(charMap.size(), maxLength);
-                maxLength = Math.max(i - start, maxLength);
                 int foundId = charMap.get(input.charAt(i));
+
                 while (start <= foundId) {
-                    charMap.remove(input.charAt(start++));
+                    charMap.remove(input.charAt(start));
+                    start++;
                 }
             }
+
             charMap.put(input.charAt(i), i);
         }
 
