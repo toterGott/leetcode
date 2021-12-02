@@ -1,4 +1,4 @@
-package com.leetpractice;
+package leetcode;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 1. Two Sum
- * https://leetcode.com/problems/two-sum/
+ * <a href="https://leetcode.com/problems/two-sum/"></a>https://leetcode.com/problems/two-sum/</a>
  */
 public class TwoSum {
 

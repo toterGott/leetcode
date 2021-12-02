@@ -1,6 +1,4 @@
-package com.leetpractice;
-
-import java.util.function.Function;
+package leetcode;
 
 /**
  * 5. Longest Palindromic Substring

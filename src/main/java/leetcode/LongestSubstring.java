@@ -1,4 +1,4 @@
-package com.leetpractice;
+package leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,7 +24,6 @@ public class LongestSubstring {
         for (int i = 0; i < input.length(); i++) {
             if (charMap.containsKey(input.charAt(i))) {
                 maxLength = Math.max(charMap.size(), maxLength);
-                maxLength = Math.max(i - start, maxLength);
                 int foundId = charMap.get(input.charAt(i));
                 while (start <= foundId) {
                     charMap.remove(input.charAt(start++));
