@@ -1,4 +1,4 @@
-package com.leetpractice;
+package leetcode;
 
 public class ZigZagConversion {
     static boolean isAnyError = false;

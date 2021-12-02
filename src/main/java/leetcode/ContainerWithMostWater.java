@@ -1,6 +1,6 @@
-package com.leetpractice;
+package leetcode;
 
-import static com.leetpractice.Utils.exec;
+import static leetcode.Utils.exec;
 
 public class ContainerWithMostWater {
 
